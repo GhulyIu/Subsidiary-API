@@ -33,6 +33,7 @@ public class SubsidiaryController {
     public GenericResponse UpdateSubsidiary(@RequestBody Subsidiary subsidiary) {
         return service.UpdateSubsidiary(subsidiary);
     }
+    //hola
     @GetMapping("/GetGeolocation")
     public List<GeoDTO> GetGeolocation() {
         return service.GetGeolocation();}
